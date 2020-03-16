@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Fatiamento de Imagens</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" style="padding: 4em 0 0.1em 0;">
+			<div class="inner">
+
+				<!-- Logo -->
+
+				<a href="index.html" class="logo">
+					<i class="fas fa-chevron-left"></i>
+					<span class="title">voltar</span>
+				</a>
+
+
+				<!-- Main -->
+				<div id="main" style="padding: 0;">
+					<div class="inner">
+						<h1>Fatiamento de Imagens</h1>
+						<span class="image main"><img src="img_01/print_01.jpg" alt="" /></span>
+						<p>
+							O exercício em questão propõe a explicação do Modelo Matemático por trás do experimento de
+							fatiamento
+							de images para a geração de novas imagens semalhantes a original, conforme executado na
+							primeira parte do vídeo
+							<a href="https://youtu.be/M07JRzkgaR8" target="_blank">AMAZING SCIENCE EXPERIMENTS AND
+								TRICKS! Compilation</a>.
+						</p>
+						<p>
+							Primeiro, tomamos uma imagem retangular qualquer, como a do exemplo no vídeo, em que suas
+							dimensões são representadas por X de largura e Y de altura.
+						</p>
+						<img src="img_01/slide_01.JPG" alt=""
+							style="width: 70%; position: relative; left: 15%; padding-bottom: 3%;" />
+						<p>
+							Em seguida, é iniciado o processo de fatiamento da imagem, a fim obter outras imagens
+							semelhantes a partir da imagem matriz.
+							A imagem é fatiada no sentido vertical, de forma que existe uma relação entre a espessura do
+							fatiamento
+							e o nível de representação da semelhança da imagem: quanto menor a espessura, mais próxima à
+							imagem matriz.
+						</p>
+						<img src="img_01/slide_02.JPG" alt=""
+							style="width: 70%; position: relative; left: 15%; padding-bottom: 3%;" />
+						<p>
+							A imagem após fatiada é reorganizada de modo intercalado, juntando todas as fatias pares
+							ordenadamente entre si e depois o mesmo processo é aplicado às fatías ímpares.
+							Desta forma, são geradas duas novas imagens contendo metade da largura da imagem matriz.
+						</p>
+						<img src="img_01/slide_03.JPG" alt=""
+							style="width: 70%; position: relative; left: 15%; padding-bottom: 3%;" />
+						<p>
+							As duas novas imagens são submetidas a um novo fatiamento, desta vez, no sentido horizontal.
+							Assim, as mesmas regras aplicadas no primeiro
+							fatiamento são válidas neste.
+						</p>
+						<img src="img_01/slide_04.JPG" alt=""
+							style="width: 70%; position: relative; left: 15%; padding-bottom: 3%;" />
+						<p>
+							Por fim, são reorganizadas seguindo a mesma lógica de intercalação do processo anterior.
+							Depois da reorganização, são formadas quatro
+							novas imagens, em que cada uma delas contém tanto metade da largura quanto da altura da
+							imagem original.
+						</p>
+
+						<img src="img_01/slide_05.JPG" alt=""
+							style="width: 70%; position: relative; left: 15%; padding-bottom: 3%;" />
+					</div>
+				</div>
+
+				<!-- Footer -->
+				<footer id="footer" style="background-color: white; padding: 0;">
+					<div class="inner">
+
+						<ul class="copyright" style="color: #585858; font-size: 1rem;">
+							<li>&copy; 2020 Francisco Weslley Lima</li>
+							<li><a href="https://smd.ufc.br/pt/" target="_blank">Sistemas e Mídias Digitais -
+									Universidade Federal do
+									Ceará</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
